@@ -1,4 +1,4 @@
-#tituloPrincipal {
+/*#tituloPrincipal {
     color: dodgerblue;
     font-family: sans-serif;
 }
@@ -16,4 +16,47 @@
 
 p{
     background-color:#cc26c6
+}
+
+
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    background-color: black;
+    color: yellow;
+}
+
+a:hover { 
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+a:active {
+    background-color: black;
+    color: green;
+}
+
+p:nth-child(even){  para que se le aplique a todos se debe utilizar "n"
+    background-color: red;
+}
+
+p:nth-child(odd){
+    background-color: green;
+}
+*/
+
+.contenedor {
+    top: 12%;
+    left: 0;
+    height: 78%;
+    background-color: bisque;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
 }
