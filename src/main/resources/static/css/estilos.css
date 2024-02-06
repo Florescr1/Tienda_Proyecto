@@ -1,4 +1,4 @@
-/*#tituloPrincipal {
+#tituloPrincipal {
     color: dodgerblue;
     font-family: sans-serif;
 }
@@ -41,16 +41,16 @@ a:active {
     color: green;
 }
 
-p:nth-child(even){  para que se le aplique a todos se debe utilizar "n"
+p:nth-child(even){  /*para que se le aplique a todos se debe utilizar "n" */
     background-color: red;
 }
 
 p:nth-child(odd){
     background-color: green;
 }
-*/
 
-.contenedor {
+
+/*.contenedor {
     top: 12%;
     left: 0;
     height: 78%;
@@ -59,4 +59,4 @@ p:nth-child(odd){
     padding: 10px;
     width: 100%;
     position: fixed;
-}
+}*/

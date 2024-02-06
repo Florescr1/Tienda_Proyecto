@@ -5,27 +5,37 @@
         <title>Tienda en Línea</title> <!--Este es el titulo que sale arriba en la pestaña -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
-        <style>
-            #tituloPrincipal {
-                color: green;
-                font-family: sans-serif;
-            }
-        </style>
     </head>
     <body>
-        <div>
-            <h1 id="tituloPrincipal" style="text-align: center;">Home</h1> <!--Esta seccion es para colocar parrafos, el style es para colocarlo en que posicion queremos, etc-->
-            <p>Bienvenidos a la página de la Tienda en Línea</p> <!--Estos son parrafos-->
-        </div>
-        <!-- Estos son 3 parrafos-->
-        <p class="parrafoSecundario parrafoPrimario" style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipiscing elit, habitasse rhoncus aliquam cum quam eu cras tempus, mauris nec libero viverra convallis dictum. Torquent tellus maecenas commodo vitae sollicitudin inceptos posuere, est diam senectus nunc euismod sociis dictum, felis fusce congue dapibus vulputate non. Hac tincidunt quam viverra aliquet eu litora natoque, duis massa fermentum arcu faucibus porta, iaculis ante nulla montes class sodales. Augue cras condimentum eget porta penatibus ad dictumst rhoncus varius, etiam torquent lacus magna consequat sagittis dui quis ut, vulputate facilisi accumsan nunc nascetur nec bibendum sociis.</p>
-        <p class="parrafoSecundario parrafoPrimario"style="text-align: right;">Velit blandit risus morbi interdum molestie aenean primis, habitasse urna suscipit phasellus in nunc arcu, bibendum nam euismod aliquam nullam cras. Cras elementum volutpat varius ultricies rhoncus parturient vulputate, taciti condimentum a aenean hendrerit aptent, ullamcorper ultrices diam bibendum pulvinar morbi. Egestas cras magnis lacinia facilisis ornare habitasse ac, nullam vestibulum aliquet porttitor fames dui, quam suscipit class sem eros blandit. Integer suscipit parturient purus lobortis turpis egestas porta eget velit a, hac libero mauris id massa quisque facilisis netus nec, ullamcorper nulla ultricies sagittis mus erat cubilia malesuada gravida.</p>
-        <p "style="text-align: center;">Condimentum <span class="parrafoSecundario">semper penatibus nunc commodo lectus eleifend eget maecenas fusce</span>, enim convallis non justo proin rutrum et mauris, ullamcorper vulputate suscipit at tortor nibh feugiat mollis. Proin lacinia rhoncus dictumst vivamus class curabitur est faucibus vehicula fermentum pulvinar, nisl mattis a venenatis lacus ligula mi ante mus varius bibendum, aenean dignissim sociosqu ridiculus fusce blandit quis tellus ac hac. Maecenas eros ornare luctus nec erat dictumst sociosqu, ad pharetra iaculis rhoncus interdum ullamcorper mus, hendrerit aptent mattis odio quam et.</p>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TextShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a> </li>  
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>  
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos</a></li>  
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">Iframes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">Formularios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contenedor">
+            <div>
+                <h1 id="tituloPrincipal" style="text-align: center;">Home</h1> <!--Esta seccion es para colocar parrafos, el style es para colocarlo en que posicion queremos, etc-->
+                <p>Bienvenidos a la página de la Tienda en Línea</p> <!--Estos son parrafos-->
+            </div>
+            <!-- Estos son 3 parrafos-->
+            <p class="parrafoSecundario parrafoPrimario" style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipiscing elit, habitasse rhoncus aliquam cum quam eu cras tempus, mauris nec libero viverra convallis dictum. Torquent tellus maecenas commodo vitae sollicitudin inceptos posuere, est diam senectus nunc euismod sociis dictum, felis fusce congue dapibus vulputate non. Hac tincidunt quam viverra aliquet eu litora natoque, duis massa fermentum arcu faucibus porta, iaculis ante nulla montes class sodales. Augue cras condimentum eget porta penatibus ad dictumst rhoncus varius, etiam torquent lacus magna consequat sagittis dui quis ut, vulputate facilisi accumsan nunc nascetur nec bibendum sociis.</p>
+            <p class="parrafoSecundario parrafoPrimario"style="text-align: right;">Velit blandit risus morbi interdum molestie aenean primis, habitasse urna suscipit phasellus in nunc arcu, bibendum nam euismod aliquam nullam cras. Cras elementum volutpat varius ultricies rhoncus parturient vulputate, taciti condimentum a aenean hendrerit aptent, ullamcorper ultrices diam bibendum pulvinar morbi. Egestas cras magnis lacinia facilisis ornare habitasse ac, nullam vestibulum aliquet porttitor fames dui, quam suscipit class sem eros blandit. Integer suscipit parturient purus lobortis turpis egestas porta eget velit a, hac libero mauris id massa quisque facilisis netus nec, ullamcorper nulla ultricies sagittis mus erat cubilia malesuada gravida.</p>
+            <p "style="text-align: center;">Condimentum <span class="parrafoSecundario">semper penatibus nunc commodo lectus eleifend eget maecenas fusce</span>, enim convallis non justo proin rutrum et mauris, ullamcorper vulputate suscipit at tortor nibh feugiat mollis. Proin lacinia rhoncus dictumst vivamus class curabitur est faucibus vehicula fermentum pulvinar, nisl mattis a venenatis lacus ligula mi ante mus varius bibendum, aenean dignissim sociosqu ridiculus fusce blandit quis tellus ac hac. Maecenas eros ornare luctus nec erat dictumst sociosqu, ad pharetra iaculis rhoncus interdum ullamcorper mus, hendrerit aptent mattis odio quam et.</p>
 
-        <br />
-        <br />
+            <br />
+            <br />
 
-        <p>Última línea</p>
+            <p>Última línea</p>
+        </section>
     </body>
 </html>
